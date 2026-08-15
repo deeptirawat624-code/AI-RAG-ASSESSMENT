@@ -1,0 +1,15 @@
+Company Information
+
+Our company is a software development company that provides web development,
+mobile application development, cloud services, and artificial intelligence solutions.
+
+The company was founded in 2020.
+
+The company provides internships for students in software development,
+data science, artificial intelligence, and web development.
+
+Internship duration is generally 3 months.
+
+Employees can work from Monday to Friday.
+
+The company uses Python, JavaScript, React, Node.js, MongoDB, and cloud technologies.
