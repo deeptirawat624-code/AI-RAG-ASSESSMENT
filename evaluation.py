@@ -148,3 +148,27 @@ print(f"Accuracy: {accuracy:.2f}%")
 print(f"Average Retrieval Latency: {average_latency:.4f} seconds")
 
 print("\nEvaluation completed successfully.")
+# ---------------- FAILURE CASES ----------------
+
+print("\n========== FAILURE CASES ==========")
+
+print("\nFailure Case 1:")
+print("Question: What is the CEO's name?")
+print("Expected: No relevant information found in the documents.")
+print("Issue: The system may retrieve weakly related content.")
+print("Improvement: Increase the similarity threshold to reject irrelevant results.")
+
+print("\nFailure Case 2:")
+print("Question: What is the exact salary offered?")
+print("Expected: No relevant information found in the documents.")
+print("Issue: The required information is not available in the source document.")
+print("Improvement: Add stronger relevance filtering and improve the fallback response.")
+
+# ---------------- COST ESTIMATION ----------------
+
+print("\n========== COST ESTIMATION ==========")
+
+estimated_cost_per_request = 0.0
+
+print(f"Estimated Cost Per Request: ${estimated_cost_per_request:.4f}")
+print("Cost Estimate: $0 using the available free-tier setup.")
