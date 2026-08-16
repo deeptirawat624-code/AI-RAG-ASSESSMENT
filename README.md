@@ -34,7 +34,6 @@ AI-RAG-ASSESSMENT/
 ├── rag.py
 ├── requirements.txt
 ├── .gitignore
-├── .env
 └── README.md
 ```
 
